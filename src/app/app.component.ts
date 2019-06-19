@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hindsite';
-  loadedFeature = 'home';
+  // loadedFeature = 'home';
 
-  onNavigate(feature: string) {
-    this.loadedFeature = feature;
-  }
+  // onNavigate(feature: string) {
+  //   this.loadedFeature = feature;
+  // }
 }
