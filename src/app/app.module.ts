@@ -18,7 +18,14 @@ import { AboutGalleryComponent } from './about/about-gallery/about-gallery.compo
 import { AboutBossComponent } from './about/about-boss/about-boss.component';
 import { AboutTimeLineComponent } from './about/about-time-line/about-time-line.component';
 import { AboutBossGalleryComponent } from './about/about-boss-gallery/about-boss-gallery.component';
-
+import { FooterComponent } from './footer/footer.component';
+import { ReclamationComponent } from './services/reclamation/reclamation.component';
+import { WeedControlComponent } from './services/weed-control/weed-control.component';
+import { MonitoringComponent } from './services/monitoring/monitoring.component';
+import { ContactDetailComponent } from './contact/contact-detail/contact-detail.component';
+import { ContactMessageComponent } from './contact/contact-message/contact-message.component';
+import { ContactLocatedComponent } from './contact/contact-located/contact-located.component';
+import { HomeQuoteComponent } from './home/home-quote/home-quote.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +43,15 @@ import { AboutBossGalleryComponent } from './about/about-boss-gallery/about-boss
     AboutGalleryComponent,
     AboutBossComponent,
     AboutTimeLineComponent,
-    AboutBossGalleryComponent
+    AboutBossGalleryComponent,
+    FooterComponent,
+    ReclamationComponent,
+    WeedControlComponent,
+    MonitoringComponent,
+    ContactDetailComponent,
+    ContactMessageComponent,
+    ContactLocatedComponent,
+    HomeQuoteComponent
   ],
   imports: [
     BrowserModule,
