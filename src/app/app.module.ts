@@ -26,6 +26,11 @@ import { ContactDetailComponent } from './contact/contact-detail/contact-detail.
 import { ContactMessageComponent } from './contact/contact-message/contact-message.component';
 import { ContactLocatedComponent } from './contact/contact-located/contact-located.component';
 import { HomeQuoteComponent } from './home/home-quote/home-quote.component';
+import { PaytimeComponent } from './yep/paytime/paytime.component';
+import { CalendarComponent } from './yep/calendar/calendar.component';
+import { YepDefinitionComponent } from './yep/yep-definition/yep-definition.component';
+import { ClientsTableComponent } from './clients/clients-table/clients-table.component';
+import { ClientsLoginComponent } from './clients/clients-login/clients-login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +56,12 @@ import { HomeQuoteComponent } from './home/home-quote/home-quote.component';
     ContactDetailComponent,
     ContactMessageComponent,
     ContactLocatedComponent,
-    HomeQuoteComponent
+    HomeQuoteComponent,
+    PaytimeComponent,
+    CalendarComponent,
+    YepDefinitionComponent,
+    ClientsTableComponent,
+    ClientsLoginComponent
   ],
   imports: [
     BrowserModule,
